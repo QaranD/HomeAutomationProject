@@ -82,7 +82,7 @@ void loop() {
   Smoke_Sensor_Value = Smoke_Sensor_Value / 100;
   float Baro_Press_Val = Barometric_Pressure.readPressure() / 100.0; //mbar
 
-  String link_Adress = "GET https://api.thingspeak.com/update?api_key=RLQNXL43HUVUSP5R";   // use your api key after "api_key=".
+  String link_Adress = "GET https://api.thingspeak.com/update?api_key=USEYOURKEY";   // use your api key after "api_key=".
   link_Adress += "&field1=";
   link_Adress += String(Temperature);// The temperature variable we will send
   link_Adress += "&field2=";
